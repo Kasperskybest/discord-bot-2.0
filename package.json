@@ -1,0 +1,19 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "A general purpose/moderation bot for discord.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sushipie",
+  "license": "ISC",
+  "dependencies": {
+    "discord-anti-spam": "^2.4.1",
+    "discord.js": "^12.4.1",
+    "discord.js-commando": "github:discordjs/Commando",
+    "moment": "^2.29.1",
+    "request": "^2.88.2",
+    "tenorjs": "^1.0.7"
+  }
+}
