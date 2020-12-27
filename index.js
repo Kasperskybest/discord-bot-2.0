@@ -50,10 +50,8 @@ client.on("ready", async () => {
   swearjar(client);
   memberJoin(client);
   memberLeave(client);
-});
-
-client.on("message", (message) => {
   antiSpam(client);
 });
+
 
 client.login(token);
